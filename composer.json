@@ -1,0 +1,27 @@
+{
+    "name": "pubms/pubms-api-php-client",
+    "type": "library",
+    "description": "PUBMS API Client Library for PHP",
+    "keywords": ["pubms"],
+    "homepage": "https://api.pubms.org/",
+    "license": "Apache-2.0",
+    "require": {
+        "php": ">=5.4"
+    },
+    "require-dev": {
+    },
+    "suggest": {
+    },
+    "autoload": {
+        "psr-0": {
+            "Pubms_": "src/"
+        },
+        "classmap": [
+            "src/Pubms"
+        ]
+    },
+    "extra": {
+        "branch-alias": {
+        }
+    }
+}
